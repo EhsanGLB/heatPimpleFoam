@@ -3,9 +3,9 @@ This is a solver for unsteady forced convection heat transfer based on foam-exte
 
 
 ## Mathematical Relationships
-$$ h = U. \nabla U $$
+$$ {dT \over dt}+ {U . \nabla T} = \alpha {\nabla}^2 T $$
 
-Which $h$ and $U$ are helicity and velocity vector, respectively.
+Which $U$, $T$, and $\alpha$ are velocity vector, temperature, and thermal diffusivity, respectively.
 
 
 ## Installation
