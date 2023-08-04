@@ -7,7 +7,7 @@ This is a solver for unsteady forced convection heat transfer written based on f
 
 $$ {dU \over dt} + {(U . \nabla) U} = - {1 \over\rho} \nabla p + \nu \nabla . {\nabla U} $$
 
-$$ {dT \over dt}+ {U . \nabla T} = \alpha {\nabla}^2 T $$
+$$ {dT \over dt} + {U . \nabla T} = \alpha {\nabla}^2 T $$
 
 Which $U$, $p$, $T$, and $t$ are velocity vector, pressure, temperature, and time, respectively. And $\rho$, $\nu$, and $\alpha$ are density, kinematic viscosity, and thermal diffusivity, respectively.
 
